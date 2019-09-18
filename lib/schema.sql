@@ -16,8 +16,7 @@ CREATE TABLE books (
 id INTEGER PRIMARY KEY,
 title TEXT,
 year INTEGER,
-series_id,
-book_id);
+series_id);
 
 CREATE TABLE characters (
 id INTEGER PRIMARY KEY,
