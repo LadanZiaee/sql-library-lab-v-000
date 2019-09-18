@@ -24,3 +24,8 @@ name TEXT,
 motto TEXT,
 species TEXT,
 author_id);
+
+CREATE TABLE character_books (
+id INTEGER PRIMARY KEY,
+character_id, book_id);
+
